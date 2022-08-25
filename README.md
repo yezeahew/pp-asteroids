@@ -28,7 +28,7 @@ when the next frame is being rendered. The other controls are done in a similar 
 with 'data-' are used to establish a communication between the two observables.
 
 
-Other Explanations
+### Other Explanations
 The game restarts when there's a collision between the asteroid and the ship.  
 This is done by 
 1. making all the other elements 'invisible'

@@ -15,7 +15,7 @@ screen by calculating the the new coordinates of each and every element and move
 Furthermore,the main observable Draw also  
 a) calculates the acceleration speed of the ship  
 b) checks if there collision between asteroids & bullets 
-c) checks if there collision between asteroid & the ship.  
+c) checks if there collision between asteroid & the ship.    
 d) checks whether a new asteroid can be spawn and so on 
 
 2. The second part are the keyboard events. The keyboard events are relatively simpler than Draw.

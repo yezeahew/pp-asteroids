@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="svgelement.js"></script>
+        <script src="observable.js"></script>
+        <script src="asteroids.js"></script>
+    </head>
+    <body>
+        <h1>Asteroids</h1>
+        <div class="row">
+            <div class="column">
+                <h2> How to play </h2>
+                <ol>
+                    <li> Use WASD keys to control the ship (the triangle): press W to accelerate; press down S to brake; press A/D key to turn left/right respectively. Note that you cannot move backward. </li>
+
+                    <li> Your goal is to avoid collision with the asteroids (the circles) and survive as long as you can. </li>
+
+                    <li> You can shoot bullets to destory the asteroids . Press space key to shoot. Note that the bullets takes 0.2s time to prepare, which means that the space key has a cooling down time of 0.2s. </li>
+
+                    <li> And also you have 3 lives, it costs 1 life when you collide with an asteroid . </li>
+
+                    <li> You can get 3 second of collision-free time when you lost 1 life. </li>
+
+                    <li> You gain one point for each second you survive. When you use up your all 3 lives, game is over. </li>
+
+                    <li> For every 20 points you gain, the game upgrades to the next difficulty level. It means that there would be more asteroids and they move faster. The highest level is 5. </li>
+
+                    <li> There are some "dangerous" asteroidss (marked in orange color) which targets on your ship. Be careful! </li>
+
+                    <li> Watch out! The bigger asteroids splits into smaller asteroids. (They sometime can be dangerous!)</li>
+
+                    <li> Good luck and enjoy the game! </li>
+                </ol>
+            </div>
+          </div>
+            <div class="column"> <svg id="canvas" width="600" height="600"/> </div>
+    </body>
+</html>

@@ -14,7 +14,7 @@ This observable is triggered once per FREQ ms.The main observable of the game up
 screen by calculating the the new coordinates of each and every element and move them when it is triggered.
 Furthermore,the main observable Draw also  
 a) calculates the acceleration speed of the ship  
-b) checks if there collision between asteroids & bullets 
+b) checks if there collision between asteroids & bullets  
 c) checks if there collision between asteroid & the ship.   
 d) checks whether a new asteroid can be spawn and so on 
 
